@@ -1,8 +1,6 @@
 import React from 'react';
 
 
-
-
 function Firstpage() {
     return(
         <div className="body">

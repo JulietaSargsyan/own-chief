@@ -1,18 +1,19 @@
 import React from 'react';
 import './App.css';
-import Firstpage from './firstPageHeader';
-import Category from './categoryList';
-import Products from './productsList';
+import AppRoutes from './AppRoutes';
+import {
+  BrowserRouter,
+  Link
+} from "react-router-dom";
 
 function App() {
   return ( 
-    <>
-    <Firstpage />
-    <div className="second">
-      <Category />
-      <Products />
-    </div>
-    </>
+    <BrowserRouter>
+      <header>
+          <Link to={'/second'}>Second page</Link>
+      </header>
+      <AppRoutes />
+    </BrowserRouter>
   );
 }
 
