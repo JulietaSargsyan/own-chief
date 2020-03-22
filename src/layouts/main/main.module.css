@@ -1,0 +1,43 @@
+.main, .second_page {
+    padding: 100px;
+  }
+  
+  .text h2 {
+      font-size:32px;
+      color: #35353C;
+      font-weight: bolder;
+      margin-bottom: 20px;
+  }
+  
+  .text p {
+    font-size: 18px;
+    color: #616161;
+    margin-bottom: 18px;
+  }
+  
+  
+   .foodType {
+     display: flex;
+     justify-content: space-between;
+   }
+  
+   .foodType div {
+     width: 400px;
+     height: 400px;
+     background-color: white;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 40px 0;
+   }
+  
+   .foodType div img {
+     height: 300px;
+   }
+  
+   .foodType p {
+     font-size: 32px;
+     color: #35353C;
+     text-transform: capitalize;
+     font-weight: bolder;
+   }

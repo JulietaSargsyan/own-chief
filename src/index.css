@@ -4,91 +4,9 @@ body {
 }
 
 
-.header {
-  width: 100%;
-  height: 99px;
-  background: #FFFFFF 0% 0% no-repeat padding-box;
-  box-shadow: 0 2px 10px #0000000F;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.logo {
-  height: 37px;
-}
-
-.sign {
-  display: flex;
-}
-
-.signIn , .signUp  {
-  width: 189px;
-  height: 52px;
-  font-size: 16;
-  color: #FAC222;
-  text-transform: uppercase;
-  font-weight: bold;
-  border-radius: 35px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.signIn:hover  {
-background-color: #FAC222;
-color: white;
-}
 
 
-.signUp:hover {
-  background-color: #FAC222;
-  color: white;
-  }
 
-.main, .second_page {
-  padding: 100px;
-}
-
-.text h2 {
-    font-size:32px;
-    color: #35353C;
-    font-weight: bolder;
-    margin-bottom: 20px;
-}
-
-.text p {
-  font-size: 18px;
-  color: #616161;
-  margin-bottom: 18px;
-}
-
-
- .foodType {
-   display: flex;
-   justify-content: space-between;
- }
-
- .foodType div {
-   width: 400px;
-   height: 400px;
-   background-color: white;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   padding: 40px 0;
- }
-
- .foodType div img {
-   height: 300px;
- }
-
- .foodType p {
-   font-size: 32px;
-   color: #35353C;
-   text-transform: capitalize;
-   font-weight: bolder;
- }
 
  .categories {
   width: 260px;
